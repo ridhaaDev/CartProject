@@ -37,7 +37,7 @@ loadCart()
  * @param {*} price this is the price of the item
  * @param {*} count this is the number of units selected, optional
  */
-function addToCart(name, price, count=1) {
+function addToCart(name, price, count = 1) {
     let item = cart.get(name);
 
     // Item is already in cart
@@ -51,7 +51,7 @@ function addToCart(name, price, count=1) {
     saveCart()
 }
 
-function removeFromCart(name, count=1) {
+function removeFromCart(name, count = 1) {
     let item = cart.get(name);
 
     if (item) {

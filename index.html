@@ -5,53 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cdee7df5a0.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Title</title>
 </head>
 
 <body>
+    <!-- Main container outline -->
+    <div class="container">
+        <!-- nav container -->
+        <ul class="nav nav-tabs col-md-12">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
 
-    <a href="cart.html">Cart</a>
+            <li class="nav-item">
+                <a class="nav-link" href="cart.html"><var><i class="fas fa-shopping-cart"></i></var> <sup>1</sup>
+                    </i></a>
+            </li>
+        </ul>
 
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Bread</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" 
-            class="btn btn-primary"
-            data-name="Bread"
-            data-price="21"
-            onclick="addGUI(this)"
-            >Add to cart</a>
-            
+        <!-- Item cards to add to cart -->
+        <div class="row">
+            <div class="card" style="width: 18rem;" class="col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Bread</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary" data-name="Bread" data-price="21" onclick="addGUI(this)">Add to
+                        cart</a>
+    
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;" class="col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Bread</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary" data-name="Bread" data-price="21" onclick="addGUI(this)">Add to
+                        cart</a>
+    
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" class="col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Bread</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary" data-name="Bread" data-price="21" onclick="addGUI(this)">Add to
+                        cart</a>
+    
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" class="col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Bread</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary" data-name="Bread" data-price="21" onclick="addGUI(this)">Add to
+                        cart</a>
+    
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" class="col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Bread</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary" data-name="Bread" data-price="21" onclick="addGUI(this)">Add to
+                        cart</a>
+    
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;" class="col-sm-4">
+                <div class="card-body">
+                    <h5 class="card-title">Bread</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary" data-name="Bread" data-price="21" onclick="addGUI(this)">Add to
+                        cart</a>
+    
+                </div>
+            </div>
         </div>
+
+       
+
+
+
+
+
     </div>
 
-    <div class="card text-center" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Milk</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" 
-            class="btn btn-primary"
-            data-name="Milk"
-            data-price="14"
-            onclick="addGUI(this)">Add to cart</a>
-        </div>
-    </div>
 
-    <div class="card text-right" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Car</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Add to cart</a>
-        </div>
-    </div>
+
+
+
 
     <script src="cart.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
